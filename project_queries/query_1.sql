@@ -3,6 +3,7 @@
 --analyst roles that are available remotely ?
 
 SELECT 
+jpf.job_id,
 cd.name AS company_name,
 jpf.job_title,
 jpf.job_title,
