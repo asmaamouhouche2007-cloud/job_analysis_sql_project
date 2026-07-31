@@ -8,7 +8,6 @@ count(*) as demands
 FROM skills_job_dim sjd
 join job_postings_fact jpf
 ON jpf.job_id=sjd.job_id
-WHERE job_work_from_home=TRUE
 AND LOWER(TRIM(job_title_short))='data analyst'
 GROUP BY sjd.skill_id
 )
@@ -18,4 +17,4 @@ FROM skills_dim sd
 JOIN remote_job_skills rjs
 ON sd.skill_id=rjs.skill_id
 order by rjs.demands DESC
-LIMIT 10;
+LIMIT 30;
