@@ -55,7 +55,7 @@ Based on the result of the query I noticed :
 - **Various Roles**: There is a wide variety of data analyst roles demanded by companies — from Data Analyst Director to Principal Data Analyst — indicating a diverse and dynamic job market.
 - **Diversity Of Employers**:Data analysts are needed across multiple industries, including tech, finance, and autonomous vehicles. This is reflected by the presence of major companies like Meta, AT&T, SmartAsset, and Motional in the results.
 
-![Top paying data analyst roles](C:/Users/ACER/Desktop/job_analysis_sql_project/assets/first.png)
+![Top paying data analyst roles](assets/first.png)
 *bar graph vizualizing salaries of top paying data analyst roles in 2023*
 
 ### 2. What skills are required for these top-paying jobs?
